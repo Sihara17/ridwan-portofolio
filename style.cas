@@ -14,11 +14,6 @@ body {
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
   text-align: center;
 }
-img {
-  width: 150px;
-  border-radius: 50%;
-  ...
-}
 
 .profile-pic {
   width: 10px;
