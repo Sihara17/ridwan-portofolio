@@ -1,0 +1,14 @@
+tailwind components;
+@tailwind utilities;
+
+
+/* Tambahan style global opsional */
+* {
+@apply box-border;
+}
+
+
+html, body {
+margin: 0;
+padding: 0;
+}
