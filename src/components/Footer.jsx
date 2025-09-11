@@ -1,7 +1,9 @@
-export default function Footer(){
-return (
-<footer className="mt-12 text-center text-sm text-slate-500 py-8">
-© {new Date().getFullYear()} Ridwan Sihara — UI/UX Designer
-</footer>
-)
+import React from 'react';
+
+export default function Footer() {
+  return (
+    <footer className="bg-gray-100 text-center py-6">
+      <p>&copy; 2025 Ridwan Sihara. All rights reserved.</p>
+    </footer>
+  );
 }

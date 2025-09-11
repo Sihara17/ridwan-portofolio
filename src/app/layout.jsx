@@ -1,14 +1,14 @@
-import "./globals.css"
+import React from 'react';
+import PropTypes from 'prop-types';
 
-export const metadata = {
-  title: "Ridwan Sihara — UI/UX Designer",
-  description: "Portfolio of Ridwan Sihara — UI/UX & Product Designer",
-}
-
-export default function RootLayout({ children }) {
+export default function Layout({ children }) {
   return (
-    <html lang="en">
-      <body className="bg-gray-50 text-gray-900">{children}</body>
-    </html>
-  )
+    <div>
+      {children}
+    </div>
+  );
 }
+
+Layout.propTypes = {
+  children: PropTypes.node
+};
