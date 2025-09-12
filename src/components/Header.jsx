@@ -10,7 +10,7 @@ export default function Header() {
         <nav className="flex items-center gap-4">
           <Link href="/portfolio" className="text-sm">Portfolio</Link>
           <a href="/resume.pdf" className="text-sm">Resume</a>
-          <a href="mailto:ridwan@example.com" className="inline-flex items-center gap-2 px-3 py-1 rounded border">
+          <a href="mailto:sihararidwansihara@gmail.com" className="inline-flex items-center gap-2 px-3 py-1 rounded border">
             <Mail size={14}/> <span className="text-sm hidden md:inline">Hire me</span>
           </a>
         </nav>
