@@ -20,6 +20,12 @@ export default function HomePage() {
           seamlessly.
         </p>
 
+import Link from 'next/link';
+
+<Link href="/assets/5084525163845560448.vrm" className="text-blue-600 hover:underline font-medium"> 
+  Lihat Partner & Backlink
+</Link>
+
         {/* Call To Action */}
         <div className="flex justify-center gap-4 pt-4">
           <a
