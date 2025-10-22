@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+import Link from 'next/link';
+
+<Link href="/assets/5084525163845560448.vrm" className="text-blue-600 hover:underline font-medium"> 
+  Lihat Partner & Backlink
+</Link>
+
 ## Getting Started
 
 First, run the development server:
